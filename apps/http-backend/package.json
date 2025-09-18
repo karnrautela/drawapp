@@ -1,0 +1,14 @@
+{
+  "name": "http-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc build",
+    "dev":"tsc index.ts",
+    "start":"pnpm build || pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
